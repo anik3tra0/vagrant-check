@@ -44,6 +44,7 @@ group :development do
 	gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
 	gem 'capistrano-rails', '~> 1.1', '>= 1.1.6'
 	gem 'capistrano-rbenv', '~> 2.0', '>= 2.0.4'
+	gem 'passenger', '~> 5.0', '>= 5.0.23'
 	# gem 'capistrano-rbenv', github: "capistrano/rbenv"
 	gem 'sqlite3'
 end
