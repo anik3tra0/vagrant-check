@@ -10,7 +10,7 @@ set :repo_url, 'git@github.com:anik3tra0/vagrant-check.git'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/deploy/vagrant-check'
 
-forward_agent: true
+# set :forward_agent, true
 
 # Default value for :scm is :git
 # set :scm, :git
