@@ -25,7 +25,7 @@ set :deploy_to, '/home/deploy/vagrant-check'
 # Default value for :pty is false
 set :pty, true
 set :ssh_options, { :forward_agent => true }
-set :port, 3001
+
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 
